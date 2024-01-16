@@ -10,6 +10,9 @@
         Hello user "{{ username }}" your emial is "{{ email }}". <br>
         Your account was created at {{ created_date }} and recently updated at "{{ updated_date }}".
     </div>
+    <div v-else>
+        <h1>the program is not working as expected</h1>
+    </div>
 </div>
 </template>
 
